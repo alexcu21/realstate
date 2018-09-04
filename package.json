@@ -9,8 +9,8 @@
   "author": "eliteDevTech",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.1.1",
-    "browser-sync": "^2.18.13",
+    "bootstrap": "*",
+    "browser-sync": "*",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-browserify": "^0.5.1",
