@@ -1,8 +1,10 @@
-# Sass-Gulp
-Repositorio para el curso de SASS y GULP en UDEMY
+# Sitio para Bienes raices Nicaragua
 
-realizando pruebas con sass y gulp
+Diseño de sitio full responsive para Bienes racices para empresa en Nicaragua, 
 
-se realizan pruebas de Git y Github
 
-este repositorio es parte de una serie de test para clases y charlas.
+Framework: Bootstrap
+
+Workflow: Gulp
+
+Estilos: SASS
