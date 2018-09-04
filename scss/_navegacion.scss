@@ -1,0 +1,90 @@
+.header{
+	@include tablet {
+	
+		position: relative; 
+	
+	}
+
+	.barra{
+	@include tablet {
+	
+			position: absolute; 
+			z-index: 100;
+			width: 100%;
+		}
+	}
+
+	.bg-success{
+		background-color: $color-primario!important;
+		
+		@include tablet {
+		
+			background-color:transparent!important; 
+		
+		}
+	}
+
+}
+
+.sobre-nosotros{
+	img{
+		width: 40%;
+	}
+}
+
+
+.navbar-brand{
+	font-size: 2rem;
+	font-weight: 300;
+	span{
+		font-weight: 900;
+	} 
+}
+
+.navbar-dark{
+	.navbar-nav{
+		.nav-link{
+			text-transform: uppercase;
+			color: #ffffff;
+			font-size: .8rem;
+		}
+	}
+}
+
+.dropdown-menu{
+	background-color: $color-primario;
+	.dropdown-item{
+		color:#ffffff;
+		text-transform: uppercase;
+		&:hover{
+			background-color: $color-secundario;
+		}
+	}
+}
+
+// captions 
+
+.carousel-caption{
+	h3{
+		font-size: 2.4rem;
+	}
+	.bg-success{
+		background-color: $color-primario!important;
+		border-radius: 0.5px;
+	}
+}
+
+.bloque-info{
+	p{
+		font-size: 1.4rem;
+	}
+}
+
+.btn-warning{
+	background-color: $color-secundario;
+	color: #ffffff;
+	border-color: $color-secundario;
+	font-weight: 700;
+}
+
+

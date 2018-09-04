@@ -1,0 +1,122 @@
+/* anuncios */
+
+.anuncios{
+	.card{
+		margin-bottom: 2rem;
+
+		.card-descripcion{
+			img{
+				margin-right: 1.5rem;
+			}
+		}
+	}
+
+	.card-precio{
+		font-size: 1.1rem;
+		color:$color-primario;
+	}
+
+	ul{
+		li{
+			img{
+				width: 40%;
+			}
+		}
+	}
+
+
+}
+
+/* encuentra */
+
+.encuentra{
+	background-image: url(../img/contacto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.row{
+		height: 25rem;
+	}
+	h3{
+		font-size: 2.2rem;
+		font-weight:900 ;	
+	}
+
+}
+
+/*blog*/
+
+.entrada{
+	h3{
+		&:after{
+			content:'';
+			display: block;
+			width: 8rem;
+			height: 0.2rem;
+			background-color: $color-secundario;
+			margin-top: .5rem;
+		}
+	}
+
+	.btn-success{
+		background-color: $color-primario;
+		text-transform: uppercase;
+		font-weight: 700;
+		padding: .5rem 3rem;
+
+		&:hover{
+			background-color: #609602;
+		}
+	}
+
+
+}
+
+.meta{
+		span{
+			color:$color-secundario;
+		}
+	}
+
+
+/* testimoniales*/
+
+.testimoniales{
+	background-color: $color-primario;
+	color:#ffffff;
+
+	.carousel-item{
+		padding-left: 2rem;
+	}
+
+	span{
+		font-size: 1.4rem;
+		font-weight: 900;
+	}
+	.testimonial-texto{
+		font-size: 1.4rem;
+		line-height: 2.6rem;
+		font-weight: 300;
+		&:before{
+			content:open-quote;
+			font-size: 3rem;
+			position:absolute;
+			left:0;
+			top:1rem;
+			font-weight: 900;
+		}
+	}
+}
+
+.footer{
+	.bg-dark{
+		background-color: #333333;
+	}
+
+	.nav-link{
+		color:#ffffff;
+		text-transform: uppercase;
+	}
+	i{
+		font-size: 2rem;
+	}
+}
